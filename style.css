@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.imge img {
+    width: 230px !important;
+    padding: 20px;
+}
+
+.sec_card {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec_card {
+    padding: 5vw;
+    gap: 1vw;
+}
+
+.cars>div {
+    height: 70vh;
+}
+
+.cars>div img {
+    width: 100%;
+    height: 100%;
+}
+
+.bold {
+    padding: 20px;
+    margin: 10px;
+    font-weight: bold;
+    background-color: black;
+}
+
+.navbar ul li a {
+    color: black;
+}
+.card-body>h5{
+    font-style: oblique;
+    padding-bottom: 10px;
+    font-variant-caps: all-small-caps;
+    border-bottom: 2px solid rgba(99, 99, 8, 0.63);
+}
+
+.h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-family: bold;
+    font-style: italic;
+}
+
+.ourteam_sce {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.ourteam_sce {
+    padding: 5vw;
+    gap: 2vw;
+}
+
+.crd_img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.crd_img img {
+    width: 100%;
+    height: 100%;
+}
+.sp{
+    color: brown;
+}
+@media screen and (max-width: 992px){
+    .sec_card{
+        flex-wrap: wrap;
+        padding: 3vw;
+    }
+    .ourteam_sce{
+        flex-wrap: wrap;
+        padding: 1vw;
+    }
+    .navbar ul li{
+        display: none;
+    }
+}
